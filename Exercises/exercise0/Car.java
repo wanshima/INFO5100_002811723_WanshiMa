@@ -10,6 +10,8 @@ public class Car {
     public boolean isElectric;
     public int seatingCapacity;
     public double price;
+    public Engine engine;
+    public Transmission transmission;
 
     public Car(String make, String model, int year, String color, double mileage, boolean isElectric, int seatingCapacity, double price) {
         this.id = java.util.UUID.randomUUID().toString();
@@ -24,6 +26,14 @@ public class Car {
         System.out.println("Car instance created with ID: " + this.id);
     }
 
+    public void setEngine(Engine engine) {
+        this.engine = engine;
+    }
+
+    public void setTransmission(Transmission transmission) {
+        this.transmission = transmission;
+    }
+
     public void drive() {}
 
     public void brake() {}
@@ -31,6 +41,7 @@ public class Car {
     public void accelerate() {}
 
     class Engine {
+        public String id;
         public String type;
         public double displacement;
         public int horsepower;
@@ -41,6 +52,7 @@ public class Car {
         public boolean isRunning;
 
         public Engine(String type, double displacement, int horsepower, int torque, boolean isTurboCharged, String fuelType, double fuelEfficiency) {
+            this.id = java.util.UUID.randomUUID().toString();
             this.type = type;
             this.displacement = displacement;
             this.horsepower = horsepower;
@@ -49,6 +61,7 @@ public class Car {
             this.fuelType = fuelType;
             this.fuelEfficiency = fuelEfficiency;
             this.isRunning = false;
+            System.out.println("Car engine instance created with ID: " + this.id);
         }
 
         public void start() {}
@@ -60,6 +73,7 @@ public class Car {
 
 
     class Transmission {
+        public String id;
         public String type;
         public int gears;
         public boolean isManual;
@@ -70,6 +84,7 @@ public class Car {
         public boolean isLocked;
 
         public Transmission(String type, int gears, boolean isManual, String model, boolean isAWD, int maxTorque, String manufacturer) {
+            this.id = java.util.UUID.randomUUID().toString();
             this.type = type;
             this.gears = gears;
             this.isManual = isManual;
@@ -78,6 +93,7 @@ public class Car {
             this.maxTorque = maxTorque;
             this.manufacturer = manufacturer;
             this.isLocked = false;
+            System.out.println("Car transmission created with ID: " + this.id);
         }
 
         public void shiftUp() {}

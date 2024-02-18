@@ -3,11 +3,11 @@ package Exercises.exercise0;
 public class WaterBottle {
     public String id;
     public String brand;
-    public double capacity; // in liters
+    public double capacity; 
     public String color;
     public boolean isInsulated;
     public String material;
-    public double weight; // in grams
+    public double weight; 
     public boolean hasFilter;
     public String lidType;
     public double price;

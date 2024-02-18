@@ -1,30 +1,33 @@
 package Exercises.exercise0;
 
+import Exercises.exercise0.Car.Engine;
+import Exercises.exercise0.Car.Transmission;
+
 public class Main {
     public static void main(String[] args) {
+        Car car1 = new Car("Tesla", "Model S", 2022, "Red", 0, true, 5, 79999.99);
+        Car car2 = new Car("Ford", "Mustang", 2021, "Blue", 15000, false, 4, 35999.99);
+        Car car3 = new Car("Chevrolet", "Bolt EV", 2022, "White", 0, true, 5, 36999.99);
+
+        Car.Engine engine1 = car1.new Engine("Electric", 0, 0, 0, false, "Electric", 0);
+        Car.Engine engine2 = car2.new Engine("V8", 5.0, 460, 420, true, "Gasoline", 15);
+        Car.Engine engine3 = car3.new Engine("Electric", 0, 200, 266, false, "Electric", 0);
+        
+        car1.setEngine(engine1);
+        car2.setEngine(engine2);
+        car3.setEngine(engine3);
+        
+        Car.Transmission transmission1 = car1.new Transmission("Automatic", 1, false, "Single Speed", false, 0, "Tesla");
+        Car.Transmission transmission2 = car2.new Transmission("Manual", 6, true, "MT82-D4", false, 420, "Ford");
+        Car.Transmission transmission3 = car3.new Transmission("Automatic", 1, false, "Single Speed", false, 0, "Chevrolet");
+        
+        car1.setTransmission(transmission1);
+        car2.setTransmission(transmission2);
+        car3.setTransmission(transmission3);
+
         Computer computer1 = new Computer("Microsoft", "Surface", 3.6, 16, 512, false, "Linux", 15.6, 10);
         Computer computer2 = new Computer("Dell", "Inspiron 27", 2.5, 8, 256, true, "Windows 10", 13.3, 8);
         Computer computer3 = new Computer("Apple", "Pro", 4.1, 32, 1024, false, "macOS", 17, 12);
-
-        Computer.Memory memory1 = computer1.new Memory(16, "DDR4", 3200, "MemoryBrandA", true, 1.2, "DIMM", false);
-        Computer.Memory memory2 = computer2.new Memory(8, "DDR3", 1600, "MemoryBrandB", false, 1.5, "SO-DIMM", false);
-        Computer.Memory memory3 = computer3.new Memory(32, "DDR4", 3600, "MemoryBrandC", true, 1.35, "DIMM", true);
-
-        Computer.Processor processor1 = computer1.new Processor("ProcessorModelA", 3.6, 6, 12, "x64", 9, 95, "LGA1151");
-        Computer.Processor processor2 = computer2.new Processor("ProcessorModelB", 2.5, 4, 8, "ARM", 4, 15, "ARM");
-        Computer.Processor processor3 = computer3.new Processor("ProcessorModelC", 4.1, 8, 16, "x64", 16, 105, "AM4");
-
-        Car car1 = new Car("Toyota", "Camry", 2020, "Silver", 25000, false, 5, 20000);
-        Car car2 = new Car("Tesla", "Model 3", 2021, "Red", 10000, true, 5, 75000);
-        Car car3 = new Car("BMW", "440", 2022, "Blue", 5000, false, 4, 35000);
-
-        Car.Engine engine1 = car1.new Engine("V6", 3.5, 300, 260, false, "Petrol", 25);
-        Car.Engine engine2 = car2.new Engine("Electric", 0, 1020, 1050, false, "Electric", 120);
-        Car.Engine engine3 = car3.new Engine("V8", 5.0, 450, 410, true, "Petrol", 22);
-
-        Car.Transmission transmission1 = car1.new Transmission("Automatic", 6, false, "6AT", false, 250, "Aisin");
-        Car.Transmission transmission2 = car2.new Transmission("Single-speed", 1, false, "1ST", true, 1000, "Tesla");
-        Car.Transmission transmission3 = car3.new Transmission("Manual", 6, true, "6MT", false, 400, "Getrag");
 
         WaterBottle waterBottle1 = new WaterBottle("Hydro Flask", 1.0, "Blue", true, "Stainless Steel", 300, false, "Screw Top", 29.95);
         WaterBottle waterBottle2 = new WaterBottle("Stanley", 1.0, "Green", false, "Plastic", 150, false, "Tumbler", 11.95);

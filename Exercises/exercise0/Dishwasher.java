@@ -28,7 +28,7 @@ public class Dishwasher {
 
     public void wash() {}
 
-    public void dry() {}
+    public void pause() {}
 
     public void drain() {}
 }

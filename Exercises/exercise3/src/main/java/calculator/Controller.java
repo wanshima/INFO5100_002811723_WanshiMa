@@ -1,4 +1,4 @@
-package sample;
+package calculator;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;

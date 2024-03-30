@@ -10,30 +10,30 @@ public class Regex {
 
         String emailPattern = "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,6}$";
         checkPattern(emailPattern, "user@example.com", true);
-        checkPattern(emailPattern, "invalid-email.com", false);
+        checkPattern(emailPattern, "user-email.com", false);
 
         String usernamePattern = "^[A-Za-z][A-Za-z0-9_-]{5,19}$";
         checkPattern(usernamePattern, "user_123", true);
-        checkPattern(usernamePattern, "9user123", false);
+        checkPattern(usernamePattern, "123user", false);
 
         String postalCodePattern = "^\\d{5}$";
         checkPattern(postalCodePattern, "12345", true);
         checkPattern(postalCodePattern, "123456", false);
 
         String ipPattern = "^((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$";
-        checkPattern(ipPattern, "192.168.1.1", true);
-        checkPattern(ipPattern, "256.100.50.25", false);
+        checkPattern(ipPattern, "100.200.89.90", true);
+        checkPattern(ipPattern, "260.200.89.90", false);
 
     }
 
-    private static void checkPattern(String pattern, String subject, boolean shouldBeValid) {
+    private static void checkPattern(String pattern, String subject, boolean isValid) {
         Pattern compiledPattern = Pattern.compile(pattern);
         Matcher matcher = compiledPattern.matcher(subject);
         boolean matches = matcher.matches();
 
         System.out.println("Testing pattern: " + pattern);
         System.out.println("Subject: " + subject);
-        if (matches == shouldBeValid) {
+        if (matches == isValid) {
             System.out.println("Result: PASS");
         } else {
             System.out.println("Result: FAIL");

@@ -1,0 +1,20 @@
+<BookShelf>
+    <Book>
+        <title>The Age of Magical Overthinking: Notes on Modern Irrationality</title>
+        <publishedYear>2024</publishedYear>
+        <numberOfPages>268</numberOfPages>
+        <author>Amanda Montell</author>
+    </Book>
+    <Book>
+        <title>The Women: A Novel</title>
+        <publishedYear>2024</publishedYear>
+        <numberOfPages>472</numberOfPages>
+        <author>Kristin Hannah</author>
+    </Book>
+    <Book>
+        <title>Rabbit Hole</title>
+        <publishedYear>2024</publishedYear>
+        <numberOfPages>385</numberOfPages>
+        <author>Kate Brody</author>
+    </Book>
+</BookShelf>

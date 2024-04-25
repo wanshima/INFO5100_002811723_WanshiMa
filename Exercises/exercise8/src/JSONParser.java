@@ -2,9 +2,14 @@ import java.nio.file.*;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+/**
+ * Demonstrates reading, parsing, and manipulating JSON data using the org.json library.
+ */
 public class JSONParser {
     public static void main(String[] args) throws Exception {
+        // Read JSON file content into a string
         String content = new String(Files.readAllBytes(Paths.get("src/books.json")));
+        // Parse the content string into a JSONObject
         JSONObject obj = new JSONObject(content);
 
         System.out.println("BookShelf:");
@@ -21,6 +26,10 @@ public class JSONParser {
         printBookDetails(books);
     }
 
+    /**
+     * Prints detailed information about each book in a JSON array.
+     * @param books The JSONArray containing JSONObjects each representing a book.
+     */
     private static void printBookDetails(JSONArray books) {
         for (int i = 0; i < books.length(); i++) {
             JSONObject book = books.getJSONObject(i);

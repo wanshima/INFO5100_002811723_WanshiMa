@@ -1,5 +1,8 @@
 package Exercises.exercise0;
 
+/**
+ * Represents a car with various attributes and components.
+ */
 public class Car {
     public String id;
     public String make;
@@ -13,6 +16,9 @@ public class Car {
     public Engine engine;
     public Transmission transmission;
 
+    /**
+     * Constructor for creating a new Car instance with initial values.
+     */
     public Car(String make, String model, int year, String color, double mileage, boolean isElectric, int seatingCapacity, double price) {
         this.id = java.util.UUID.randomUUID().toString();
         this.make = make;
@@ -26,20 +32,30 @@ public class Car {
         System.out.println("Car instance created with ID: " + this.id);
     }
 
+    /**
+     * Assigns an engine to this car.
+     */
     public void setEngine(Engine engine) {
         this.engine = engine;
     }
 
+    /**
+     * Assigns a transmission to this car.
+     */
     public void setTransmission(Transmission transmission) {
         this.transmission = transmission;
     }
 
+    // Methods for car functionalities
     public void drive() {}
 
     public void brake() {}
 
     public void accelerate() {}
 
+    /**
+     * Represents the engine of the car, detailing its specifications.
+     */
     class Engine {
         public String id;
         public String type;
@@ -51,6 +67,9 @@ public class Car {
         public double fuelEfficiency;
         public boolean isRunning;
 
+        /**
+         * Constructor for creating a new Engine instance with initial values.
+         */
         public Engine(String type, double displacement, int horsepower, int torque, boolean isTurboCharged, String fuelType, double fuelEfficiency) {
             this.id = java.util.UUID.randomUUID().toString();
             this.type = type;
@@ -72,6 +91,9 @@ public class Car {
     }
 
 
+    /**
+     * Represents the transmission system of the car, detailing its specifications.
+     */
     class Transmission {
         public String id;
         public String type;
@@ -83,6 +105,9 @@ public class Car {
         public String manufacturer;
         public boolean isLocked;
 
+        /**
+         * Constructor for creating a new Transmission instance with initial values.
+         */
         public Transmission(String type, int gears, boolean isManual, String model, boolean isAWD, int maxTorque, String manufacturer) {
             this.id = java.util.UUID.randomUUID().toString();
             this.type = type;

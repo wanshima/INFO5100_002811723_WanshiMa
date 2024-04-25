@@ -1,24 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="6e7aae6f-a0d5-4625-b774-026642931aa3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Hackathon/src/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Hackathon/src/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hackathon/src/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Hackathon/src/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hackathon/src/LibraryApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Hackathon/src/LibraryApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise3/com/example/exercise3/HelloApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise3/com/example/exercise3/HelloController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise3/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercise3/module-info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/calculator/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculator/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/calculator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculator/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/exercise3/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/exercise3/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/exercise3/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/exercise3/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise8/src/JSONParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise8/src/JSONParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise8/src/XMLParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise8/src/XMLParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise2/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise2/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise2/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise2/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise2/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise2/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise2/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise2/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise2/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise2/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,21 +32,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/wanshima/Documents/GitHub/INFO5100_002811723_WanshiMa/Exercises/exercise3",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/wanshima/Documents/GitHub/INFO5100_002811723_WanshiMa/Exercises/exercise3&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -70,8 +55,7 @@
       <workItem from="1711081344136" duration="13000" />
       <workItem from="1711081383330" duration="60000" />
       <workItem from="1711081463201" duration="14000" />
-      <workItem from="1713487088427" duration="363000" />
-      <workItem from="1713488435591" duration="18000" />
+      <workItem from="1713506390126" duration="95000" />
     </task>
     <servers />
   </component>

@@ -1,5 +1,8 @@
 package Exercises.exercise0;
 
+/**
+ * Represents a computer with various specifications and behaviors.
+ */
 public class Computer {
     public String id;
     public String brand;
@@ -12,6 +15,9 @@ public class Computer {
     public double screenSize;
     public int batteryLife;
 
+    /**
+     * Constructs a new Computer instance with specified attributes.
+     */
     public Computer(String brand, String model, double cpuSpeed, int ram, int storage, boolean isLaptop, String os, double screenSize, int batteryLife) {
         this.id = java.util.UUID.randomUUID().toString();
         this.brand = brand;
@@ -26,10 +32,20 @@ public class Computer {
         System.out.println("Computer instance created with ID: " + this.id);
     }
 
+    /**
+     * Powers on the computer.
+     */
     public void powerOn() {}
 
+    /**
+     * Powers off the computer.
+     */
     public void powerOff() {}
 
+
+    /**
+     * Reboots the computer.
+     */
     public void reboot() {}
     
 }

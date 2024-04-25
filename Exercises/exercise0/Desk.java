@@ -1,5 +1,8 @@
 package Exercises.exercise0;
 
+/**
+ * Represents a desk with various attributes and functionalities.
+ */
 public class Desk {
     public String id;
     public String material;
@@ -12,6 +15,9 @@ public class Desk {
     public boolean isAdjustable;
     public double price;
 
+    /**
+     * Constructs a new Desk instance with specified attributes.
+     */
     public Desk(String material, String color, double length, double width, double height, boolean hasDrawers, int numberOfDrawers, boolean isAdjustable, double price) {
         this.id = java.util.UUID.randomUUID().toString();
         this.material = material;
@@ -26,9 +32,18 @@ public class Desk {
         System.out.println("Desk instance created with ID: " + this.id);
     }
 
+    /**
+     * Adjusts the height of the desk.
+     */
     public void adjustHeight() {}
 
+    /**
+     * Opens a drawer of the desk.
+     */
     public void openDrawer() {}
 
+    /**
+     * Locks all drawers of the desk.
+     */
     public void lockDrawers() {}
 }

@@ -1,12 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="6e7aae6f-a0d5-4625-b774-026642931aa3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise0/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise0/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise0/Chair.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise0/Chair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise0/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise0/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise0/Desk.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise0/Desk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise0/Dishwasher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise0/Dishwasher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise0/Dryer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise0/Dryer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise0/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise0/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise0/Refrigerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise0/Refrigerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise0/TV.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise0/TV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise0/Washer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise0/Washer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise0/WaterBottle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise0/WaterBottle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise0/out/production/exercise0/Exercises/exercise0/Car$Engine.class" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise0/out/production/exercise0/Exercises/exercise0/Car$Engine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise0/out/production/exercise0/Exercises/exercise0/Car$Transmission.class" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise0/out/production/exercise0/Exercises/exercise0/Car$Transmission.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise0/out/production/exercise0/Exercises/exercise0/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise0/out/production/exercise0/Exercises/exercise0/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise0/out/production/exercise0/Exercises/exercise0/Chair.class" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise0/out/production/exercise0/Exercises/exercise0/Chair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise0/out/production/exercise0/Exercises/exercise0/Computer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise0/out/production/exercise0/Exercises/exercise0/Computer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise0/out/production/exercise0/Exercises/exercise0/Desk.class" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise0/out/production/exercise0/Exercises/exercise0/Desk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise0/out/production/exercise0/Exercises/exercise0/Dishwasher.class" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise0/out/production/exercise0/Exercises/exercise0/Dishwasher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise0/out/production/exercise0/Exercises/exercise0/Dryer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise0/out/production/exercise0/Exercises/exercise0/Dryer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise0/out/production/exercise0/Exercises/exercise0/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise0/out/production/exercise0/Exercises/exercise0/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise0/out/production/exercise0/Exercises/exercise0/Refrigerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise0/out/production/exercise0/Exercises/exercise0/Refrigerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise0/out/production/exercise0/Exercises/exercise0/TV.class" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise0/out/production/exercise0/Exercises/exercise0/TV.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise0/out/production/exercise0/Exercises/exercise0/Washer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise0/out/production/exercise0/Exercises/exercise0/Washer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise0/out/production/exercise0/Exercises/exercise0/WaterBottle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise0/out/production/exercise0/Exercises/exercise0/WaterBottle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise1/FullTimeStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise1/FullTimeStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise1/PartTimeStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise1/PartTimeStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise1/Session.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise1/Session.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise1/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise1/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise1/out/production/exercise1/Exercises/exercise1/FullTimeStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise1/out/production/exercise1/Exercises/exercise1/FullTimeStudent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise1/out/production/exercise1/Exercises/exercise1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise1/out/production/exercise1/Exercises/exercise1/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise1/out/production/exercise1/Exercises/exercise1/PartTimeStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise1/out/production/exercise1/Exercises/exercise1/PartTimeStudent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise1/out/production/exercise1/Exercises/exercise1/Session.class" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise1/out/production/exercise1/Exercises/exercise1/Session.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise1/out/production/exercise1/Exercises/exercise1/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise1/out/production/exercise1/Exercises/exercise1/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise2/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise2/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise2/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise2/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise2/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise2/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise2/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise2/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise2/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise2/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise3/Exercises/exercise3/src/main/java/com/example/exercise3/HelloApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise3/Exercises/exercise3/src/main/java/com/example/exercise3/HelloController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise3/com/example/exercise3/HelloApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise3/com/example/exercise3/HelloController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercise3/com/example/exercise3/hello-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/calculator/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculator/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/calculator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculator/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/exercise3/HelloApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/exercise3/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/INFO5100_002811723_WanshiMa/Exercises/exercise3/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../out/production/INFO5100_002811723_WanshiMa/Exercises/exercise3/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/INFO5100_002811723_WanshiMa/Exercises/exercise3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../out/production/INFO5100_002811723_WanshiMa/Exercises/exercise3/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,17 +81,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/wanshima/Documents/GitHub/INFO5100_002811723_WanshiMa/Exercises/exercise3&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/wanshima/Documents/GitHub/INFO5100_002811723_WanshiMa/Exercises/exercise3",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="calculator.Main" />
+      <module name="exercise3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -54,6 +127,12 @@
       <workItem from="1711081344136" duration="13000" />
       <workItem from="1711081383330" duration="60000" />
       <workItem from="1711081463201" duration="14000" />
+      <workItem from="1713506390126" duration="95000" />
+      <workItem from="1713634105465" duration="45000" />
+      <workItem from="1714075715386" duration="148000" />
+      <workItem from="1714075867655" duration="23000" />
+      <workItem from="1714075900050" duration="12000" />
+      <workItem from="1714075913688" duration="503000" />
     </task>
     <servers />
   </component>

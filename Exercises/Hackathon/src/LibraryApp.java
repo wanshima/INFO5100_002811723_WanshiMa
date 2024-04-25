@@ -1,4 +1,8 @@
 public class LibraryApp {
+    /**
+     * Main method to run the library application.
+     * This method demonstrates adding, checking out, returning books, and user authentication.
+     */
     public static void main(String[] args) {
         Library library = new Library();
 

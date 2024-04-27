@@ -2,7 +2,7 @@
  * Factory for creating news articles based on the type.
  */
 public class ArticleFactory {
-    // Creates and returns an article based on the type specified
+    // Creates and returns an article based on the type specified. Demonstrates the use of the factory pattern.
     public static NewsArticle createArticle(String type) {
         if (type.equalsIgnoreCase("sports")) {
             return new SportsArticle();

@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e7aae6f-a0d5-4625-b774-026642931aa3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/exercise3/calculator/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercise3/calculator/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercise3/calculator/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercise3/calculator/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Finalproject/src/main/Screenshots/4. convert, rename, and save.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Finalproject/src/main/Screenshots/5. convert, rename, and save.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Finalproject/src/main/Screenshots/5. process multiple images.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Finalproject/src/main/Screenshots/6. process multiple images.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +84,7 @@
       <workItem from="1714075900050" duration="12000" />
       <workItem from="1714075913688" duration="503000" />
       <workItem from="1714183902288" duration="7000" />
+      <workItem from="1714241884234" duration="8000" />
     </task>
     <servers />
   </component>
